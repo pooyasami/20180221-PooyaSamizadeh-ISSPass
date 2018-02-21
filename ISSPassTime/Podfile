@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+
+use_frameworks!
+
+target 'ISSPassTime' do
+	pod 'AFNetworking'
+    pod 'MBProgressHUD'
+end
+
+target 'ISSPassTimeTests' do
+	pod 'AFNetworking'
+    pod 'MBProgressHUD'
+end

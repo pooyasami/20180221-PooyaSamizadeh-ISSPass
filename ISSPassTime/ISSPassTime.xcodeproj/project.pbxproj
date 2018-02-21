@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8D8D52203CAD3400ABF6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D51203CAD3400ABF6A0 /* AppDelegate.swift */; };
+		5A8D8D54203CAD3400ABF6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D53203CAD3400ABF6A0 /* ViewController.swift */; };
+		5A8D8D57203CAD3400ABF6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8D8D55203CAD3400ABF6A0 /* Main.storyboard */; };
+		5A8D8D59203CAD3400ABF6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8D8D58203CAD3400ABF6A0 /* Assets.xcassets */; };
+		5A8D8D5C203CAD3400ABF6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8D8D5A203CAD3400ABF6A0 /* LaunchScreen.storyboard */; };
+		5A8D8D67203CAD3400ABF6A0 /* ISSPassTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D66203CAD3400ABF6A0 /* ISSPassTimeTests.swift */; };
+		5A8D8D74203E0CAE00ABF6A0 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D73203E0CAE00ABF6A0 /* DataPoint.swift */; };
+		5A8D8D75203E0CE400ABF6A0 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D73203E0CAE00ABF6A0 /* DataPoint.swift */; };
+		5A8D8D77203E0D1500ABF6A0 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D76203E0D1500ABF6A0 /* Date+Extension.swift */; };
+		5A8D8D78203E0D3F00ABF6A0 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D76203E0D1500ABF6A0 /* Date+Extension.swift */; };
+		5A8D8D79203E0D8800ABF6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D51203CAD3400ABF6A0 /* AppDelegate.swift */; };
+		5A8D8D7A203E0D8C00ABF6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D8D53203CAD3400ABF6A0 /* ViewController.swift */; };
+		84BAF0DD392AF5AF0BDAC731 /* Pods_ISSPassTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D067D9E0FD0F5F9C048DC0 /* Pods_ISSPassTimeTests.framework */; };
+		D1D3E9504E4CC276BE949C42 /* Pods_ISSPassTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB04022C14F760B213CD4EBA /* Pods_ISSPassTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A8D8D63203CAD3400ABF6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8D8D46203CAD3400ABF6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8D8D4D203CAD3400ABF6A0;
+			remoteInfo = ISSPassTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0830A4A60721598DCA120FBA /* Pods-ISSPassTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSPassTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISSPassTimeTests/Pods-ISSPassTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		39D067D9E0FD0F5F9C048DC0 /* Pods_ISSPassTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISSPassTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8D8D4E203CAD3400ABF6A0 /* ISSPassTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSPassTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8D8D51203CAD3400ABF6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A8D8D53203CAD3400ABF6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A8D8D56203CAD3400ABF6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A8D8D58203CAD3400ABF6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A8D8D5B203CAD3400ABF6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A8D8D5D203CAD3400ABF6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8D8D62203CAD3400ABF6A0 /* ISSPassTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSPassTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8D8D66203CAD3400ABF6A0 /* ISSPassTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPassTimeTests.swift; sourceTree = "<group>"; };
+		5A8D8D68203CAD3400ABF6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8D8D73203E0CAE00ABF6A0 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		5A8D8D76203E0D1500ABF6A0 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		5D39B71E3ACBB18ECD34F232 /* Pods-ISSPassTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSPassTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISSPassTime/Pods-ISSPassTime.release.xcconfig"; sourceTree = "<group>"; };
+		BB04022C14F760B213CD4EBA /* Pods_ISSPassTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISSPassTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB45B8A5560DB7F43A475E1 /* Pods-ISSPassTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSPassTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISSPassTime/Pods-ISSPassTime.debug.xcconfig"; sourceTree = "<group>"; };
+		CADF1B4508E30D44AB555B10 /* Pods-ISSPassTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSPassTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISSPassTimeTests/Pods-ISSPassTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8D8D4B203CAD3400ABF6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D3E9504E4CC276BE949C42 /* Pods_ISSPassTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8D8D5F203CAD3400ABF6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BAF0DD392AF5AF0BDAC731 /* Pods_ISSPassTimeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B45A10EB242F1430A3BC42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB04022C14F760B213CD4EBA /* Pods_ISSPassTime.framework */,
+				39D067D9E0FD0F5F9C048DC0 /* Pods_ISSPassTimeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8D8D45203CAD3400ABF6A0 = {
+			isa = PBXGroup;
+			children = (
+				5A8D8D50203CAD3400ABF6A0 /* ISSPassTime */,
+				5A8D8D65203CAD3400ABF6A0 /* ISSPassTimeTests */,
+				5A8D8D4F203CAD3400ABF6A0 /* Products */,
+				9830A2D462F1021CA4677968 /* Pods */,
+				02B45A10EB242F1430A3BC42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A8D8D4F203CAD3400ABF6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D8D4E203CAD3400ABF6A0 /* ISSPassTime.app */,
+				5A8D8D62203CAD3400ABF6A0 /* ISSPassTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A8D8D50203CAD3400ABF6A0 /* ISSPassTime */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D8D5D203CAD3400ABF6A0 /* Info.plist */,
+				5A8D8D51203CAD3400ABF6A0 /* AppDelegate.swift */,
+				5A8D8D73203E0CAE00ABF6A0 /* DataPoint.swift */,
+				5A8D8D76203E0D1500ABF6A0 /* Date+Extension.swift */,
+				5A8D8D53203CAD3400ABF6A0 /* ViewController.swift */,
+				5A8D8D58203CAD3400ABF6A0 /* Assets.xcassets */,
+				5A8D8D5A203CAD3400ABF6A0 /* LaunchScreen.storyboard */,
+				5A8D8D55203CAD3400ABF6A0 /* Main.storyboard */,
+			);
+			path = ISSPassTime;
+			sourceTree = "<group>";
+		};
+		5A8D8D65203CAD3400ABF6A0 /* ISSPassTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D8D66203CAD3400ABF6A0 /* ISSPassTimeTests.swift */,
+				5A8D8D68203CAD3400ABF6A0 /* Info.plist */,
+			);
+			path = ISSPassTimeTests;
+			sourceTree = "<group>";
+		};
+		9830A2D462F1021CA4677968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBB45B8A5560DB7F43A475E1 /* Pods-ISSPassTime.debug.xcconfig */,
+				5D39B71E3ACBB18ECD34F232 /* Pods-ISSPassTime.release.xcconfig */,
+				CADF1B4508E30D44AB555B10 /* Pods-ISSPassTimeTests.debug.xcconfig */,
+				0830A4A60721598DCA120FBA /* Pods-ISSPassTimeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8D8D4D203CAD3400ABF6A0 /* ISSPassTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8D8D6B203CAD3400ABF6A0 /* Build configuration list for PBXNativeTarget "ISSPassTime" */;
+			buildPhases = (
+				0002108CC5E21DA26CE20142 /* [CP] Check Pods Manifest.lock */,
+				5A8D8D4A203CAD3400ABF6A0 /* Sources */,
+				5A8D8D4B203CAD3400ABF6A0 /* Frameworks */,
+				5A8D8D4C203CAD3400ABF6A0 /* Resources */,
+				18081BBB498D40DBC4B3A317 /* [CP] Embed Pods Frameworks */,
+				E88F213EB5D908E3D6F8D3F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISSPassTime;
+			productName = ISSPassTime;
+			productReference = 5A8D8D4E203CAD3400ABF6A0 /* ISSPassTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A8D8D61203CAD3400ABF6A0 /* ISSPassTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8D8D6E203CAD3400ABF6A0 /* Build configuration list for PBXNativeTarget "ISSPassTimeTests" */;
+			buildPhases = (
+				3D8D9EDE5E1212F540221BF6 /* [CP] Check Pods Manifest.lock */,
+				5A8D8D5E203CAD3400ABF6A0 /* Sources */,
+				5A8D8D5F203CAD3400ABF6A0 /* Frameworks */,
+				5A8D8D60203CAD3400ABF6A0 /* Resources */,
+				D0198C5A42904BF8C8E2FA67 /* [CP] Embed Pods Frameworks */,
+				F5CD7C2E9D4B2216CA5D2642 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8D8D64203CAD3400ABF6A0 /* PBXTargetDependency */,
+			);
+			name = ISSPassTimeTests;
+			productName = ISSPassTimeTests;
+			productReference = 5A8D8D62203CAD3400ABF6A0 /* ISSPassTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8D8D46203CAD3400ABF6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pooya Samizadeh";
+				TargetAttributes = {
+					5A8D8D4D203CAD3400ABF6A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A8D8D61203CAD3400ABF6A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A8D8D4D203CAD3400ABF6A0;
+					};
+				};
+			};
+			buildConfigurationList = 5A8D8D49203CAD3400ABF6A0 /* Build configuration list for PBXProject "ISSPassTime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A8D8D45203CAD3400ABF6A0;
+			productRefGroup = 5A8D8D4F203CAD3400ABF6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8D8D4D203CAD3400ABF6A0 /* ISSPassTime */,
+				5A8D8D61203CAD3400ABF6A0 /* ISSPassTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8D8D4C203CAD3400ABF6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8D8D5C203CAD3400ABF6A0 /* LaunchScreen.storyboard in Resources */,
+				5A8D8D59203CAD3400ABF6A0 /* Assets.xcassets in Resources */,
+				5A8D8D57203CAD3400ABF6A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8D8D60203CAD3400ABF6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0002108CC5E21DA26CE20142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISSPassTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18081BBB498D40DBC4B3A317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISSPassTime/Pods-ISSPassTime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSPassTime/Pods-ISSPassTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8D9EDE5E1212F540221BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISSPassTimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0198C5A42904BF8C8E2FA67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISSPassTimeTests/Pods-ISSPassTimeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSPassTimeTests/Pods-ISSPassTimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88F213EB5D908E3D6F8D3F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSPassTime/Pods-ISSPassTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CD7C2E9D4B2216CA5D2642 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSPassTimeTests/Pods-ISSPassTimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8D8D4A203CAD3400ABF6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8D8D74203E0CAE00ABF6A0 /* DataPoint.swift in Sources */,
+				5A8D8D77203E0D1500ABF6A0 /* Date+Extension.swift in Sources */,
+				5A8D8D54203CAD3400ABF6A0 /* ViewController.swift in Sources */,
+				5A8D8D52203CAD3400ABF6A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8D8D5E203CAD3400ABF6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8D8D7A203E0D8C00ABF6A0 /* ViewController.swift in Sources */,
+				5A8D8D79203E0D8800ABF6A0 /* AppDelegate.swift in Sources */,
+				5A8D8D75203E0CE400ABF6A0 /* DataPoint.swift in Sources */,
+				5A8D8D67203CAD3400ABF6A0 /* ISSPassTimeTests.swift in Sources */,
+				5A8D8D78203E0D3F00ABF6A0 /* Date+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A8D8D64203CAD3400ABF6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8D8D4D203CAD3400ABF6A0 /* ISSPassTime */;
+			targetProxy = 5A8D8D63203CAD3400ABF6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A8D8D55203CAD3400ABF6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8D8D56203CAD3400ABF6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A8D8D5A203CAD3400ABF6A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8D8D5B203CAD3400ABF6A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A8D8D69203CAD3400ABF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A8D8D6A203CAD3400ABF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A8D8D6C203CAD3400ABF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB45B8A5560DB7F43A475E1 /* Pods-ISSPassTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				INFOPLIST_FILE = ISSPassTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.isspasstime.ISSPassTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A8D8D6D203CAD3400ABF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D39B71E3ACBB18ECD34F232 /* Pods-ISSPassTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				INFOPLIST_FILE = ISSPassTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.isspasstime.ISSPassTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A8D8D6F203CAD3400ABF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADF1B4508E30D44AB555B10 /* Pods-ISSPassTimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				INFOPLIST_FILE = ISSPassTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.isspasstime.ISSPassTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISSPassTime.app/ISSPassTime";
+			};
+			name = Debug;
+		};
+		5A8D8D70203CAD3400ABF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0830A4A60721598DCA120FBA /* Pods-ISSPassTimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				INFOPLIST_FILE = ISSPassTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.isspasstime.ISSPassTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISSPassTime.app/ISSPassTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8D8D49203CAD3400ABF6A0 /* Build configuration list for PBXProject "ISSPassTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8D8D69203CAD3400ABF6A0 /* Debug */,
+				5A8D8D6A203CAD3400ABF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8D8D6B203CAD3400ABF6A0 /* Build configuration list for PBXNativeTarget "ISSPassTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8D8D6C203CAD3400ABF6A0 /* Debug */,
+				5A8D8D6D203CAD3400ABF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8D8D6E203CAD3400ABF6A0 /* Build configuration list for PBXNativeTarget "ISSPassTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8D8D6F203CAD3400ABF6A0 /* Debug */,
+				5A8D8D70203CAD3400ABF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A8D8D46203CAD3400ABF6A0 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ISSPassTime {
+  umbrella header "Pods-ISSPassTime-umbrella.h"
+
+  export *
+  module * { export * }
+}
